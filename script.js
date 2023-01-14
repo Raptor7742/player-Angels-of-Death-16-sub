@@ -31,7 +31,7 @@ const playerInstance = jwplayer("player").setup({
       sources: [
         {
           file:
-            "",
+            "https://dl.videas.fr/v-medias/s3/uploaded/%C3%A9pisode_16.mp4?fileName=episode-16mp4-source.mp4",
           label: "1080p",
           default: true
         },
@@ -42,7 +42,7 @@ const playerInstance = jwplayer("player").setup({
         },
         {
           file:
-            "",
+            "https://dl.videas.fr/v-medias/s3/a/17/44/174448daad3f4875a33f34ad00ea2814/2a1b5e9745304f27857b70812f9d4504/21306f3e-3aaf-4d69-9420-1857f8bd7ba0.mp4?fileName=episode-16mp4-480p.mp4",
           label: "480p"
         },
         {
